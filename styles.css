@@ -1,0 +1,35 @@
+body {
+    background: greenyellow;
+}
+
+.carta {
+    background: white;
+    margin: 70px auto;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgtop {
+    font-size: 80px;
+    padding: 30px;
+}
+
+.imgbottom {
+    transform: rotate(180deg);
+    font-size: 80px;
+    display: flex;
+    padding: 30px;
+}
+
+.imgbottom i {
+    text-align: right;
+}
+
+#Number {
+    margin: 0;
+    text-align: center;
+    font-size: 200px;
+}
